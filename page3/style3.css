@@ -1,0 +1,102 @@
+html{
+    font-size: 62.5%;
+    line-height: 0.5rem;
+}
+.w100{width: 100%;}
+.w7{width: 7%;}
+.w8{width: 8%;}
+.lf2{left: 2%;}
+.rt2{right: 2%;}
+.pd-lf{padding-left: 20%;}
+.pd-rt{padding-right: 18%;}
+.mx640{max-width: 640px;}
+.h10{height: 10rem;}
+.ih{line-height: 2.5rem;}
+.m-0-a{margin: 0 auto;}
+.m2{margin: 2% 0}
+.oh{overflow: hidden;}
+.df{display: flex;}
+.pf{position: fixed}
+.pr{position: relative;}
+.pa{position: absolute;}
+.a-i-c{align-items: center;}
+.t-a-c{text-align: center;}
+.fz2{font-size: 2.5rem;}
+.op{opacity: 0.85;}
+.cf{color: #fff;}
+.cb{color:#bcbcbc;}
+.bc2{background-color: #29bde0;}
+.bc9{background-color: #99dff0;}
+.pd3{padding: 3%}
+.pd-1-20{padding: 1% 20%;}
+.bm0{bottom: 0;}
+.bd-bm{border-bottom: solid 1px #fff;}
+.pd-bm{padding-bottom: 27%;}
+
+h2{
+    margin: 0 auto!important;
+    color: #fff;
+    font-size: 2.5rem!important;
+}
+h3{
+    color: #ffc865!important;
+    font-size: 3rem!important;
+    font-weight: bold!important;
+    margin: 3% 10%!important;
+    text-align: center;
+}
+h4{
+    text-align: left!important;
+    padding-left: 20%!important;
+    font-size: 2.5rem!important;
+}
+span{
+    position: absolute;
+    top: 8%;
+    right: 23%;
+    color: #d5d5d5;
+    font-size: 1.5rem;
+}
+.main-p{
+    padding-left: 20%;
+    padding-right: 18%;
+    color: #bcbcbc;
+    font-size: 2.2rem;
+    overflow: hidden;
+}
+.main-btm{
+    overflow: hidden;
+    position: relative;
+    border-bottom: solid 1px #ddd;
+    padding: 1% 0;
+}
+.button-left{
+    width: 40%;
+    height: 6rem;
+    font-size: 2.9rem;
+    color: #fff;
+    background-color: #f66f6f;
+    outline: none;
+    border-radius: 10px;
+    margin: 5%;
+    float: left;
+    text-align: center;
+}
+.button-right{
+    width: 40%;
+    height: 6rem;
+    background-color: #fbb435;
+    border: none;
+    font-size: 2.9rem;
+    color: #fff;
+    outline: none;
+    border-radius: 10px;
+    margin: 5%;
+    float: right;
+    text-align: center;
+}
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 40%;
+    }
+}
